@@ -1,0 +1,360 @@
+{
+  "island": {
+    "url": "/assets/island.glb",
+    "sourceTaskId": "b2466ae3-030e-4e0a-80db-5bceeb19bbb4",
+    "sourceModel": "asset-sources/island/tripo-out/cloudgarden-island-b2466ae3/model.glb",
+    "triangles": 18000,
+    "bytes": 2199372,
+    "blenderBounds": {
+      "min": [
+        -1.000113606452942,
+        -1.0012969970703125,
+        -0.32825490832328796
+      ],
+      "max": [
+        1.0005470514297485,
+        1.0002421140670776,
+        0.0253875944763422
+      ]
+    },
+    "collision": "terrain",
+    "animations": [],
+    "scalePolicy": "radius in metres"
+  },
+  "grass": {
+    "url": "/assets/grass.glb",
+    "sourceTaskId": "083465db-fdb7-4c1e-b9a6-9021adc70611",
+    "sourceModel": "asset-sources/grass/tripo-out/cloudgarden-grass-083465db/model.glb",
+    "triangles": 2273,
+    "bytes": 202012,
+    "blenderBounds": {
+      "min": [
+        -0.2700846195220947,
+        -0.46493905782699585,
+        0.024813324213027954
+      ],
+      "max": [
+        0.25743311643600464,
+        0.452851265668869,
+        0.41857680678367615
+      ]
+    },
+    "collision": "decorative",
+    "animations": [],
+    "scalePolicy": "height in metres at placement"
+  },
+  "bridge": {
+    "url": "/assets/bridge.glb",
+    "sourceTaskId": "b82c4b5c-1e82-45d3-919c-f26310e221a9",
+    "sourceModel": "asset-sources/bridge/tripo-out/cloudgarden-bridge-b82c4b5c/model.glb",
+    "triangles": 4500,
+    "bytes": 439904,
+    "blenderBounds": {
+      "min": [
+        -0.24228139221668243,
+        -0.5000462532043457,
+        -0.00011812027514679357
+      ],
+      "max": [
+        0.23788326978683472,
+        0.5004934668540955,
+        0.21201318502426147
+      ]
+    },
+    "collision": "bridge",
+    "animations": [],
+    "scalePolicy": "height in metres at placement"
+  },
+  "grass-tall": {
+    "url": "/assets/grass-tall.glb",
+    "sourceTaskId": "9d86236d-af80-4993-9926-ca0e1cf7e663",
+    "sourceModel": "asset-sources/grass-tall/tripo-out/cloudgarden-grass-tall-9d86236d/model.glb",
+    "triangles": 1795,
+    "bytes": 156144,
+    "blenderBounds": {
+      "min": [
+        -0.39781591296195984,
+        -0.4130355417728424,
+        0.0730881467461586
+      ],
+      "max": [
+        0.3959123194217682,
+        0.37892332673072815,
+        0.988885760307312
+      ]
+    },
+    "collision": "decorative",
+    "animations": [],
+    "scalePolicy": "height in metres at placement"
+  },
+  "volcano": {
+    "url": "/assets/volcano.glb",
+    "sourceTaskId": "ad5a601d-446f-43a5-9212-b54b63a1b632",
+    "sourceModel": "asset-sources/volcano/tripo-out/cloudgarden-volcano-ad5a601d/model.glb",
+    "triangles": 3500,
+    "bytes": 429708,
+    "blenderBounds": {
+      "min": [
+        -0.499489426612854,
+        -0.4952305257320404,
+        -0.0007598702795803547
+      ],
+      "max": [
+        0.49964070320129395,
+        0.5004894137382507,
+        0.4270486533641815
+      ]
+    },
+    "collision": "decorative",
+    "animations": [],
+    "scalePolicy": "height in metres at placement"
+  },
+  "explorer": {
+    "url": "/assets/explorer.glb",
+    "sourceTaskId": "af1b6f87-4127-4762-a121-573d66d1e251",
+    "sourceModel": "asset-sources/explorer-motions/tripo-out/retarget-5-af1b6f87/model.glb",
+    "triangles": 18080,
+    "bytes": 3629052,
+    "blenderBounds": {
+      "min": [
+        -0.9510578513145447,
+        -0.9999999403953552,
+        -1
+      ],
+      "max": [
+        0.9510578513145447,
+        0.9999999403953552,
+        1
+      ]
+    },
+    "collision": "decorative",
+    "animations": [
+      "idle",
+      "run",
+      "walk"
+    ],
+    "scalePolicy": "height in metres at placement",
+    "motionRevision": "grounded-stride-v2",
+    "motionSource": "asset-sources/explorer-before-motion-fix.glb",
+    "sha256": "8b2a9b5267fce133ccb7e94176d872b318a007bed58b5e110f644a7ef4bd362d"
+  },
+  "rock": {
+    "url": "/assets/rock.glb",
+    "sourceTaskId": "4f8da38a-6d22-45fe-a612-dfb058bce1f5",
+    "sourceModel": "asset-sources/rock/tripo-out/cloudgarden-rock-4f8da38a/model.glb",
+    "triangles": 1964,
+    "bytes": 282160,
+    "blenderBounds": {
+      "min": [
+        -0.4936026930809021,
+        -0.48737794160842896,
+        0.0001950087898876518
+      ],
+      "max": [
+        0.5080044269561768,
+        0.48399993777275085,
+        0.7581474184989929
+      ]
+    },
+    "collision": "decorative",
+    "animations": [],
+    "scalePolicy": "height in metres at placement"
+  },
+  "shed": {
+    "url": "/assets/shed.glb",
+    "sourceTaskId": "3b3fd0bc-d89d-43ab-b08d-a43346d4c1cf",
+    "sourceModel": "asset-sources/shed/tripo-out/cloudgarden-shed-3b3fd0bc/model.glb",
+    "triangles": 5000,
+    "bytes": 445020,
+    "blenderBounds": {
+      "min": [
+        -0.4247490167617798,
+        -0.5004673004150391,
+        0.0002855505736079067
+      ],
+      "max": [
+        0.4270046055316925,
+        0.5003096461296082,
+        0.9268373847007751
+      ]
+    },
+    "collision": "decorative",
+    "animations": [],
+    "scalePolicy": "height in metres at placement"
+  },
+  "fence": {
+    "url": "/assets/fence.glb",
+    "sourceTaskId": "f1418837-d08b-4a7f-8dff-9186fae5ceb3",
+    "sourceModel": "asset-sources/fence/tripo-out/cloudgarden-fence-f1418837/model.glb",
+    "triangles": 898,
+    "bytes": 246816,
+    "blenderBounds": {
+      "min": [
+        -0.07608263939619064,
+        -0.49860334396362305,
+        -0.0038255758117884398
+      ],
+      "max": [
+        0.07016200572252274,
+        0.49956434965133667,
+        0.5995244979858398
+      ]
+    },
+    "collision": "decorative",
+    "animations": [],
+    "scalePolicy": "height in metres at placement"
+  },
+  "cloud": {
+    "url": "/assets/cloud.glb",
+    "sourceTaskId": "68377497-38e4-4757-993e-4f1b9460c42e",
+    "sourceModel": "asset-sources/cloud/model.glb",
+    "triangles": 1464,
+    "bytes": 78700,
+    "blenderBounds": {
+      "min": [
+        -0.4131171703338623,
+        -0.48686230182647705,
+        0.012906551361083984
+      ],
+      "max": [
+        0.39426955580711365,
+        0.47621944546699524,
+        0.6063147187232971
+      ]
+    },
+    "collision": "decorative",
+    "animations": [],
+    "scalePolicy": "height in metres at placement"
+  },
+  "flowers-white": {
+    "url": "/assets/flowers-white.glb",
+    "sourceTaskId": "194708d9-24fd-478d-a5f4-e7136bfbd221",
+    "sourceModel": "asset-sources/flowers-white/model.glb",
+    "triangles": 1313,
+    "bytes": 142384,
+    "blenderBounds": {
+      "min": [
+        -0.2340731918811798,
+        -0.3749566674232483,
+        0.07366668432950974
+      ],
+      "max": [
+        0.2724933326244354,
+        0.3813962936401367,
+        0.9907838702201843
+      ]
+    },
+    "collision": "decorative",
+    "animations": [],
+    "scalePolicy": "height in metres at placement"
+  },
+  "shrine": {
+    "url": "/assets/shrine.glb",
+    "sourceTaskId": "878f9868-7f60-422d-84f7-e6c2c7ee5400",
+    "sourceModel": "asset-sources/shrine/tripo-out/cloudgarden-shrine-878f9868/model.glb",
+    "triangles": 3499,
+    "bytes": 394164,
+    "blenderBounds": {
+      "min": [
+        -0.4458833336830139,
+        -0.4489589333534241,
+        0.0014426123816519976
+      ],
+      "max": [
+        0.4486995339393616,
+        0.4503982663154602,
+        0.9954109787940979
+      ]
+    },
+    "collision": "decorative",
+    "animations": [],
+    "scalePolicy": "height in metres at placement"
+  },
+  "fern": {
+    "url": "/assets/fern.glb",
+    "sourceTaskId": "51e38f97-0720-4334-9dbf-8b0d82329b2a",
+    "sourceModel": "asset-sources/fern/tripo-out/cloudgarden-fern-51e38f97/model.glb",
+    "triangles": 1689,
+    "bytes": 185948,
+    "blenderBounds": {
+      "min": [
+        -0.31636834144592285,
+        -0.4969783425331116,
+        0.05463894084095955
+      ],
+      "max": [
+        0.31339189410209656,
+        0.4209946393966675,
+        0.6920812726020813
+      ]
+    },
+    "collision": "decorative",
+    "animations": [],
+    "scalePolicy": "height in metres at placement"
+  },
+  "flowers-purple": {
+    "url": "/assets/flowers-purple.glb",
+    "sourceTaskId": "535514b5-5afe-4a0f-965b-f42a3118b8d1",
+    "sourceModel": "asset-sources/flowers-purple/tripo-out/cloudgarden-flowers-purple-535514b5/model.glb",
+    "triangles": 1932,
+    "bytes": 182688,
+    "blenderBounds": {
+      "min": [
+        -0.3455219864845276,
+        -0.3999009430408478,
+        0.07205124199390411
+      ],
+      "max": [
+        0.31905677914619446,
+        0.4286189079284668,
+        0.951972484588623
+      ]
+    },
+    "collision": "decorative",
+    "animations": [],
+    "scalePolicy": "height in metres at placement"
+  },
+  "path": {
+    "url": "/assets/path.glb",
+    "sourceTaskId": "c9b28c12-fb7b-4add-864b-0e3bddee94cc",
+    "sourceModel": "asset-sources/path/tripo-out/cloudgarden-path-c9b28c12/model.glb",
+    "triangles": 1078,
+    "bytes": 122196,
+    "blenderBounds": {
+      "min": [
+        -0.28391706943511963,
+        -0.38850605487823486,
+        0.004032552242279053
+      ],
+      "max": [
+        0.27554449439048767,
+        0.38946789503097534,
+        0.9962260723114014
+      ]
+    },
+    "collision": "decorative",
+    "animations": [],
+    "scalePolicy": "height in metres at placement"
+  },
+  "lantern": {
+    "url": "/assets/lantern.glb",
+    "sourceTaskId": "e80c32b4-b97d-4623-b012-099b14003e65",
+    "sourceModel": "asset-sources/lantern/tripo-out/cloudgarden-lantern-e80c32b4/model.glb",
+    "triangles": 2499,
+    "bytes": 327460,
+    "blenderBounds": {
+      "min": [
+        -0.3237577974796295,
+        -0.31915679574012756,
+        -0.0005131468060426414
+      ],
+      "max": [
+        0.32888659834861755,
+        0.3257407546043396,
+        0.9965210556983948
+      ]
+    },
+    "collision": "decorative",
+    "animations": []
+  }
+}

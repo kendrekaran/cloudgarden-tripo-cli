@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta name="theme-color" content="#253c35" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%23263f32'/%3E%3Ctext x='20' y='29' text-anchor='middle' font-size='30' fill='%23edd6a0'%3E✧%3C/text%3E%3C/svg%3E"
+    />
+    <title>Cloudgarden · A little closer to the sky</title>
+  </head>
+  <body>
+    <canvas
+      id="world"
+      aria-label="Cloudgarden three dimensional game world"
+    ></canvas>
+    <div id="vignette"></div>
+    <main id="menu" class="screen">
+      <div class="masthead">
+        <span class="emblem">✧</span> FIELD NOTES FROM ABOVE THE CLOUDS
+        <span class="edition">VOLUME 01</span>
+      </div>
+      <section class="title-block">
+        <p class="eyebrow">A SMALL WORLD. A LONG WAY FROM EVERYWHERE.</p>
+        <h1>Cloud<span>garden</span></h1>
+        <div class="title-rule"></div>
+        <p class="description">
+          Somewhere above the clouds,<br />three gardens are waiting to wake.
+        </p>
+        <button id="start" disabled>
+          <span id="start-label">Growing your world</span
+          ><span class="arrow">↗</span>
+        </button>
+        <div id="load"><div id="load-bar"></div></div>
+        <p id="load-label">Preparing the meadow…</p>
+        <p class="menu-note">Wander slowly. There is no wrong turn.</p>
+      </section>
+      <div class="menu-bottom">
+        <span>AN EXPLORATION IN THREE CHAPTERS</span
+        ><span class="tiny-line"></span
+        ><span>HEADPHONES OPTIONAL · CURIOSITY ESSENTIAL</span
+        ><button id="menu-quality" class="text-button">DETAIL: HIGH</button>
+      </div>
+    </main>
+    <div id="hud" hidden>
+      <header>
+        <div class="brand">cloudgarden <span>✧</span></div>
+        <div class="compass">
+          <span>W</span><span class="compass-line"></span
+          ><span id="bearing">N</span><span class="compass-line"></span
+          ><span>E</span>
+        </div>
+        <button id="pause-button" aria-label="Pause game">Ⅱ</button>
+      </header>
+      <section class="objective">
+        <p id="chapter">THE GARDENS ABOVE</p>
+        <h2 id="objective-title">Wake the sleeping gardens</h2>
+        <div class="quest-dots">
+          <i></i><i></i><i></i><span id="quest-count">0 / 3</span>
+        </div>
+        <p id="objective-detail">
+          Follow the old bridges. Find the amber stones.
+        </p>
+      </section>
+      <div id="location">
+        <span class="location-line"></span
+        ><span id="location-name">THE HOME MEADOW</span
+        ><span class="location-line"></span>
+      </div>
+      <div id="interact" hidden>
+        <kbd>E</kbd><span id="interact-text">Awaken the garden</span>
+      </div>
+      <div id="toast" role="status"></div>
+      <footer>
+        <div class="control-hints">
+          <span><kbd>W A S D</kbd> wander</span><span><kbd>SHIFT</kbd> run</span
+          ><span><kbd>MOUSE</kbd> look</span><span><kbd>E</kbd> interact</span>
+        </div>
+        <span class="footer-note">TAKE YOUR TIME.</span>
+      </footer>
+    </div>
+    <div id="pause" class="overlay" hidden>
+      <section class="pause-card">
+        <p class="eyebrow">A MOMENT OF STILLNESS</p>
+        <h2>Stay a little.</h2>
+        <p>The gardens will be here when you return.</p>
+        <button id="resume">Continue wandering <span>↗</span></button
+        ><button id="quality" class="secondary">Detail: High</button
+        ><button id="sound" class="secondary">Sound: On</button
+        ><button id="restart" class="secondary">Start a new journey</button>
+        <p class="pause-note">Progress is saved on this device.</p>
+      </section>
+    </div>
+    <div id="ending" class="overlay" hidden>
+      <section class="pause-card">
+        <p class="eyebrow">ALL THREE GARDENS ARE AWAKE</p>
+        <div class="ending-symbol">✧</div>
+        <h2>A world, renewed.</h2>
+        <p>
+          The wind carries a little more warmth now.<br />There is still time to
+          take the long way home.
+        </p>
+        <button id="keep-playing">Keep wandering <span>↗</span></button>
+      </section>
+    </div>
+    <div id="error" class="overlay" hidden>
+      <section class="pause-card">
+        <h2>A cloud in the way.</h2>
+        <p id="error-message"></p>
+        <button onclick="location.reload()">Try again ↗</button>
+      </section>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

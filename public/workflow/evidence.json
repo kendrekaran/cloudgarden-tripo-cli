@@ -1,0 +1,37 @@
+{
+  "command": "PROMPT=\"Natural storybook realism, organic shapes, detailed matte PBR textures, muted earthy colors, isolated single game asset, no text, no pedestal. A small ancient garden lantern carved from mossy gray stone, squat square base, four slender stone pillars around a single amber crystal, peaked weathered stone roof. Open sides reveal the amber crystal. Natural storybook realism, isolated single prop, no ground.\"\n\ntripo make \"$PROMPT\" -p texture=true -p pbr=true \\\n  -p texture_quality=standard --name cloudgarden-lantern \\\n  --out asset-sources/lantern --dry-run\n\n# After validation, remove --dry-run to generate.\ntripo make \"$PROMPT\" -p texture=true -p pbr=true \\\n  -p texture_quality=standard --name cloudgarden-lantern \\\n  --out asset-sources/lantern --json --no-open",
+  "dry_run": {
+    "dry_run": true,
+    "valid": true,
+    "input": "Natural storybook realism, organic shapes, detailed matte PBR textures, muted earthy colors, isolated single game asset, no text, no pedestal. A small ancient garden lantern carved from mossy gray stone, squat square base, four slender stone pillars around a single amber crystal, peaked weathered stone roof. Open sides reveal the amber crystal. Natural storybook realism, isolated single prop, no ground. ",
+    "model": "v3.1-20260211",
+    "model_reason": "default high-fidelity \u2192 v3.1",
+    "steps": [
+      {
+        "name": "text-to-model",
+        "endpoint": "/v3/generation/text-to-model",
+        "task_type": "text_to_model",
+        "payload": {
+          "prompt": "Natural storybook realism, organic shapes, detailed matte PBR textures, muted earthy colors, isolated single game asset, no text, no pedestal. A small ancient garden lantern carved from mossy gray stone, squat square base, four slender stone pillars around a single amber crystal, peaked weathered stone roof. Open sides reveal the amber crystal. Natural storybook realism, isolated single prop, no ground. ",
+          "model": "v3.1-20260211",
+          "texture": true,
+          "pbr": true,
+          "texture_quality": "standard"
+        }
+      }
+    ],
+    "pending_uploads": [],
+    "deliverables": [],
+    "candidates": 1,
+    "warnings": [],
+    "errors": [],
+    "cost_notes": []
+  },
+  "result": {
+    "task_id": "e80c32b4-b97d-4623-b012-099b14003e65",
+    "status": "success",
+    "credits_consumed": 20,
+    "model_file": "asset-sources/lantern/tripo-out/cloudgarden-lantern-e80c32b4/model.glb"
+  },
+  "note": "Actual CLI result fields. Absolute local path shortened; signed download URLs omitted. No generated status messages."
+}

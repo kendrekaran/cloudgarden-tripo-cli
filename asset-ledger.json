@@ -1,0 +1,680 @@
+{
+  "budget": 500,
+  "initial_balance": 1000,
+  "jobs": {
+    "explorer": {
+      "prompt": "Natural storybook realism, organic shapes, detailed matte PBR textures, muted earthy colors, isolated single game asset, no text, no pedestal. Full body young adult human explorer, short dark brown hair, teal green tunic, ochre yellow short neck scarf, fitted brown trousers and brown leather boots. Friendly expressive face, elegant storybook proportions. Neutral T pose, straight legs slightly apart, arms horizontal, open hands, all fingers separated. No props. ",
+      "created_at": "2026-10-14T14:35:53.185941+00:00",
+      "dry_run": {
+        "dry_run": true,
+        "valid": true,
+        "input": "Natural storybook realism, organic shapes, detailed matte PBR textures, muted earthy colors, isolated single game asset, no text, no pedestal. Full body young adult human explorer, short dark brown hair, teal green tunic, ochre yellow short neck scarf, fitted brown trousers and brown leather boots. Friendly expressive face, elegant storybook proportions. Neutral T pose, straight legs slightly apart, arms horizontal, open hands, all fingers separated. No props. ",
+        "model": "v3.1-20260211",
+        "model_reason": "default high-fidelity \u2192 v3.1",
+        "steps": [
+          {
+            "name": "text-to-model",
+            "endpoint": "/v3/generation/text-to-model",
+            "task_type": "text_to_model",
+            "payload": {
+              "prompt": "Natural storybook realism, organic shapes, detailed matte PBR textures, muted earthy colors, isolated single game asset, no text, no pedestal. Full body young adult human explorer, short dark brown hair, teal green tunic, ochre yellow short neck scarf, fitted brown trousers and brown leather boots. Friendly expressive face, elegant storybook proportions. Neutral T pose, straight legs slightly apart, arms horizontal, open hands, all fingers separated. No props. ",
+              "model": "v3.1-20260211",
+              "texture": true,
+              "pbr": true,
+              "texture_quality": "standard"
+            }
+          }
+        ],
+        "pending_uploads": [],
+        "deliverables": [],
+        "candidates": 1,
+        "warnings": [],
+        "errors": [],
+        "cost_notes": []
+      },
+      "result": {
+        "task_id": "dedc08a7-7b64-4f38-b25b-81da8b96df2e",
+        "type": "text_to_model",
+        "status": "success",
+        "credits_consumed": 20,
+        "model_file": "asset-sources/explorer/tripo-out/cloudgarden-explorer-dedc08a7/model.glb",
+        "output_dir": "asset-sources/explorer/tripo-out/cloudgarden-explorer-dedc08a7",
+        "preview": "asset-sources/explorer/tripo-out/cloudgarden-explorer-dedc08a7/preview.png"
+      }
+    },
+    "island": {
+      "prompt": "Natural storybook realism, organic shapes, detailed matte PBR textures, muted earthy colors, isolated single game asset, no text, no pedestal. Floating meadow island terrain, circular broad gently domed grassy olive green top, mostly flat walkable surface, exposed dark gray rock cliffs and tapered rugged rocky underside. Top is 5 times wider than total height. Bare terrain only, no trees, no structures, no sky. ",
+      "created_at": "2026-10-14T14:38:45.815621+00:00",
+      "dry_run": {
+        "dry_run": true,
+        "valid": true,
+        "input": "Natural storybook realism, organic shapes, detailed matte PBR textures, muted earthy colors, isolated single game asset, no text, no pedestal. Floating meadow island terrain, circular broad gently domed grassy olive green top, mostly flat walkable surface, exposed dark gray rock cliffs and tapered rugged rocky underside. Top is 5 times wider than total height. Bare terrain only, no trees, no structures, no sky. ",
+        "model": "v3.1-20260211",
+        "model_reason": "default high-fidelity \u2192 v3.1",
+        "steps": [
+          {
+            "name": "text-to-model",
+            "endpoint": "/v3/generation/text-to-model",
+            "task_type": "text_to_model",
+            "payload": {
+              "prompt": "Natural storybook realism, organic shapes, detailed matte PBR textures, muted earthy colors, isolated single game asset, no text, no pedestal. Floating meadow island terrain, circular broad gently domed grassy olive green top, mostly flat walkable surface, exposed dark gray rock cliffs and tapered rugged rocky underside. Top is 5 times wider than total height. Bare terrain only, no trees, no structures, no sky. ",
+              "model": "v3.1-20260211",
+              "texture": true,
+              "pbr": true,
+              "texture_quality": "standard"
+            }
+          }
+        ],
+        "pending_uploads": [],
+        "deliverables": [],
+        "candidates": 1,
+        "warnings": [],
+        "errors": [],
+        "cost_notes": []
+      },
+      "result": {
+        "task_id": "b2466ae3-030e-4e0a-80db-5bceeb19bbb4",
+        "type": "text_to_model",
+        "status": "success",
+        "credits_consumed": 20,
+        "model_file": "asset-sources/island/tripo-out/cloudgarden-island-b2466ae3/model.glb",
+        "output_dir": "asset-sources/island/tripo-out/cloudgarden-island-b2466ae3",
+        "preview": "asset-sources/island/tripo-out/cloudgarden-island-b2466ae3/preview.png"
+      }
+    },
+    "grass": {
+      "prompt": "Natural storybook realism, organic shapes, detailed matte PBR textures, muted earthy colors, isolated single game asset, no text, no pedestal. One small tuft of lush meadow grass, 25 separate very thin curved flat pointed green blades with tapered tips, irregular organic silhouette, moss green with pale dry tips, no dirt base, no pot. ",
+      "created_at": "2026-10-14T14:42:02.668686+00:00",
+      "dry_run": {
+        "dry_run": true,
+        "valid": true,
+        "input": "Natural storybook realism, organic shapes, detailed matte PBR textures, muted earthy colors, isolated single game asset, no text, no pedestal. One small tuft of lush meadow grass, 25 separate very thin curved flat pointed green blades with tapered tips, irregular organic silhouette, moss green with pale dry tips, no dirt base, no pot. ",
+        "model": "v3.1-20260211",
+        "model_reason": "default high-fidelity \u2192 v3.1",
+        "steps": [
+          {
+            "name": "text-to-model",
+            "endpoint": "/v3/generation/text-to-model",
+            "task_type": "text_to_model",
+            "payload": {
+              "prompt": "Natural storybook realism, organic shapes, detailed matte PBR textures, muted earthy colors, isolated single game asset, no text, no pedestal. One small tuft of lush meadow grass, 25 separate very thin curved flat pointed green blades with tapered tips, irregular organic silhouette, moss green with pale dry tips, no dirt base, no pot. ",
+              "model": "v3.1-20260211",
+              "texture": true,
+              "pbr": true,
+              "texture_quality": "standard"
+            }
+          }
+        ],
+        "pending_uploads": [],
+        "deliverables": [],
+        "candidates": 1,
+        "warnings": [],
+        "errors": [],
+        "cost_notes": []
+      },
+      "result": {
+        "task_id": "083465db-fdb7-4c1e-b9a6-9021adc70611",
+        "type": "text_to_model",
+        "status": "success",
+        "credits_consumed": 20,
+        "model_file": "asset-sources/grass/tripo-out/cloudgarden-grass-083465db/model.glb",
+        "output_dir": "asset-sources/grass/tripo-out/cloudgarden-grass-083465db",
+        "preview": "asset-sources/grass/tripo-out/cloudgarden-grass-083465db/preview.png"
+      }
+    },
+    "bridge": {
+      "prompt": "Natural storybook realism, organic shapes, detailed matte PBR textures, muted earthy colors, isolated single game asset, no text, no pedestal. Straight weathered wooden footbridge section with flat plank walkway and wooden post rope handrails on both long sides. Open unobstructed ends, rectangular floor, six times longer than wide, rustic brown aged timber. No terrain. ",
+      "created_at": "2026-10-14T14:45:23.881203+00:00",
+      "dry_run": {
+        "dry_run": true,
+        "valid": true,
+        "input": "Natural storybook realism, organic shapes, detailed matte PBR textures, muted earthy colors, isolated single game asset, no text, no pedestal. Straight weathered wooden footbridge section with flat plank walkway and wooden post rope handrails on both long sides. Open unobstructed ends, rectangular floor, six times longer than wide, rustic brown aged timber. No terrain. ",
+        "model": "v3.1-20260211",
+        "model_reason": "default high-fidelity \u2192 v3.1",
+        "steps": [
+          {
+            "name": "text-to-model",
+            "endpoint": "/v3/generation/text-to-model",
+            "task_type": "text_to_model",
+            "payload": {
+              "prompt": "Natural storybook realism, organic shapes, detailed matte PBR textures, muted earthy colors, isolated single game asset, no text, no pedestal. Straight weathered wooden footbridge section with flat plank walkway and wooden post rope handrails on both long sides. Open unobstructed ends, rectangular floor, six times longer than wide, rustic brown aged timber. No terrain. ",
+              "model": "v3.1-20260211",
+              "texture": true,
+              "pbr": true,
+              "texture_quality": "standard"
+            }
+          }
+        ],
+        "pending_uploads": [],
+        "deliverables": [],
+        "candidates": 1,
+        "warnings": [],
+        "errors": [],
+        "cost_notes": []
+      },
+      "result": {
+        "task_id": "b82c4b5c-1e82-45d3-919c-f26310e221a9",
+        "type": "text_to_model",
+        "status": "success",
+        "credits_consumed": 20,
+        "model_file": "asset-sources/bridge/tripo-out/cloudgarden-bridge-b82c4b5c/model.glb",
+        "output_dir": "asset-sources/bridge/tripo-out/cloudgarden-bridge-b82c4b5c",
+        "preview": "asset-sources/bridge/tripo-out/cloudgarden-bridge-b82c4b5c/preview.png"
+      }
+    },
+    "explorer-check": {
+      "result": {
+        "task_id": "c8c4416a-20a2-43d4-84e4-f4e67a32023d",
+        "type": "animate_prerigcheck",
+        "status": "success",
+        "credits_consumed": 0,
+        "output_dir": "asset-sources/explorer-check/tripo-out/rig-check-c8c4416a"
+      }
+    },
+    "explorer-rig": {
+      "result": {
+        "task_id": "0cc7db4a-1778-44e4-8795-5868fb47a735",
+        "type": "animate_rig",
+        "status": "success",
+        "credits_consumed": 25,
+        "model_file": "asset-sources/explorer-rig/tripo-out/rig-0cc7db4a/model.glb",
+        "output_dir": "asset-sources/explorer-rig/tripo-out/rig-0cc7db4a",
+        "preview": "asset-sources/explorer-rig/tripo-out/rig-0cc7db4a/preview.png"
+      }
+    },
+    "grass-tall": {
+      "prompt": "Natural storybook realism, organic shapes, detailed matte PBR textures, muted earthy colors, isolated single game asset, no text, no pedestal. One tuft of tall wild meadow grass with thin long arching green leaves and six delicate golden seed heads, natural irregular arrangement, no soil base, no pot. ",
+      "created_at": "2026-10-14T14:47:42.336505+00:00",
+      "dry_run": {
+        "dry_run": true,
+        "valid": true,
+        "input": "Natural storybook realism, organic shapes, detailed matte PBR textures, muted earthy colors, isolated single game asset, no text, no pedestal. One tuft of tall wild meadow grass with thin long arching green leaves and six delicate golden seed heads, natural irregular arrangement, no soil base, no pot. ",
+        "model": "v3.1-20260211",
+        "model_reason": "default high-fidelity \u2192 v3.1",
+        "steps": [
+          {
+            "name": "text-to-model",
+            "endpoint": "/v3/generation/text-to-model",
+            "task_type": "text_to_model",
+            "payload": {
+              "prompt": "Natural storybook realism, organic shapes, detailed matte PBR textures, muted earthy colors, isolated single game asset, no text, no pedestal. One tuft of tall wild meadow grass with thin long arching green leaves and six delicate golden seed heads, natural irregular arrangement, no soil base, no pot. ",
+              "model": "v3.1-20260211",
+              "texture": true,
+              "pbr": true,
+              "texture_quality": "standard"
+            }
+          }
+        ],
+        "pending_uploads": [],
+        "deliverables": [],
+        "candidates": 1,
+        "warnings": [],
+        "errors": [],
+        "cost_notes": []
+      },
+      "result": {
+        "task_id": "9d86236d-af80-4993-9926-ca0e1cf7e663",
+        "type": "text_to_model",
+        "status": "success",
+        "credits_consumed": 20,
+        "model_file": "asset-sources/grass-tall/tripo-out/cloudgarden-grass-tall-9d86236d/model.glb",
+        "output_dir": "asset-sources/grass-tall/tripo-out/cloudgarden-grass-tall-9d86236d",
+        "preview": "asset-sources/grass-tall/tripo-out/cloudgarden-grass-tall-9d86236d/preview.png"
+      }
+    },
+    "volcano": {
+      "prompt": "Natural storybook realism, organic shapes, detailed matte PBR textures, muted earthy colors, isolated single game asset, no text, no pedestal. Small dormant miniature volcano, low wide cone of dark gray weathered basalt with vertical ridges and a clear circular recessed crater at top, natural rugged rocky surface, no lava, no smoke, no ground base. ",
+      "created_at": "2026-10-14T14:48:37.244614+00:00",
+      "dry_run": {
+        "dry_run": true,
+        "valid": true,
+        "input": "Natural storybook realism, organic shapes, detailed matte PBR textures, muted earthy colors, isolated single game asset, no text, no pedestal. Small dormant miniature volcano, low wide cone of dark gray weathered basalt with vertical ridges and a clear circular recessed crater at top, natural rugged rocky surface, no lava, no smoke, no ground base. ",
+        "model": "v3.1-20260211",
+        "model_reason": "default high-fidelity \u2192 v3.1",
+        "steps": [
+          {
+            "name": "text-to-model",
+            "endpoint": "/v3/generation/text-to-model",
+            "task_type": "text_to_model",
+            "payload": {
+              "prompt": "Natural storybook realism, organic shapes, detailed matte PBR textures, muted earthy colors, isolated single game asset, no text, no pedestal. Small dormant miniature volcano, low wide cone of dark gray weathered basalt with vertical ridges and a clear circular recessed crater at top, natural rugged rocky surface, no lava, no smoke, no ground base. ",
+              "model": "v3.1-20260211",
+              "texture": true,
+              "pbr": true,
+              "texture_quality": "standard"
+            }
+          }
+        ],
+        "pending_uploads": [],
+        "deliverables": [],
+        "candidates": 1,
+        "warnings": [],
+        "errors": [],
+        "cost_notes": []
+      },
+      "result": {
+        "task_id": "ad5a601d-446f-43a5-9212-b54b63a1b632",
+        "type": "text_to_model",
+        "status": "success",
+        "credits_consumed": 20,
+        "model_file": "asset-sources/volcano/tripo-out/cloudgarden-volcano-ad5a601d/model.glb",
+        "output_dir": "asset-sources/volcano/tripo-out/cloudgarden-volcano-ad5a601d",
+        "preview": "asset-sources/volcano/tripo-out/cloudgarden-volcano-ad5a601d/preview.png"
+      }
+    },
+    "explorer-rig-compat": {
+      "result": {
+        "task_id": "6eb6c097-ad0d-4ae4-b69b-58dee8012bee",
+        "type": "animate_rig",
+        "status": "success",
+        "credits_consumed": 25
+      }
+    },
+    "explorer-animated": {
+      "result": {
+        "task_id": "af1b6f87-4127-4762-a121-573d66d1e251",
+        "type": "animate_retarget",
+        "status": "success",
+        "credits_consumed": 30
+      }
+    },
+    "cloud": {
+      "prompt": "Natural storybook realism, organic shapes, detailed matte PBR textures, muted earthy colors, isolated single game asset, no text, no pedestal. One very wide flattened bank of fluffy white cumulus clouds, softly rounded organic billowing forms merging together, warm ivory above and pale blue gray underneath, no ground, no other objects. ",
+      "created_at": "2026-10-14T14:51:46.830968+00:00",
+      "dry_run": {
+        "dry_run": true,
+        "valid": true,
+        "input": "Natural storybook realism, organic shapes, detailed matte PBR textures, muted earthy colors, isolated single game asset, no text, no pedestal. One very wide flattened bank of fluffy white cumulus clouds, softly rounded organic billowing forms merging together, warm ivory above and pale blue gray underneath, no ground, no other objects. ",
+        "model": "v3.1-20260211",
+        "model_reason": "default high-fidelity \u2192 v3.1",
+        "steps": [
+          {
+            "name": "text-to-model",
+            "endpoint": "/v3/generation/text-to-model",
+            "task_type": "text_to_model",
+            "payload": {
+              "prompt": "Natural storybook realism, organic shapes, detailed matte PBR textures, muted earthy colors, isolated single game asset, no text, no pedestal. One very wide flattened bank of fluffy white cumulus clouds, softly rounded organic billowing forms merging together, warm ivory above and pale blue gray underneath, no ground, no other objects. ",
+              "model": "v3.1-20260211",
+              "texture": true,
+              "pbr": true,
+              "texture_quality": "standard"
+            }
+          }
+        ],
+        "pending_uploads": [],
+        "deliverables": [],
+        "candidates": 1,
+        "warnings": [],
+        "errors": [],
+        "cost_notes": []
+      },
+      "result": {
+        "task_id": "68377497-38e4-4757-993e-4f1b9460c42e",
+        "type": "text_to_model",
+        "status": "success",
+        "credits_consumed": 20
+      }
+    },
+    "shed": {
+      "prompt": "Natural storybook realism, organic shapes, detailed matte PBR textures, muted earthy colors, isolated single game asset, no text, no pedestal. Tiny rustic open front garden shelter, slanted timber roof, weathered dark brown plank back wall, four wooden posts, open doorway and visible empty wooden floor, a little ochre clay pot on one side. No ground base. ",
+      "created_at": "2026-10-14T14:53:35.596189+00:00",
+      "dry_run": {
+        "dry_run": true,
+        "valid": true,
+        "input": "Natural storybook realism, organic shapes, detailed matte PBR textures, muted earthy colors, isolated single game asset, no text, no pedestal. Tiny rustic open front garden shelter, slanted timber roof, weathered dark brown plank back wall, four wooden posts, open doorway and visible empty wooden floor, a little ochre clay pot on one side. No ground base. ",
+        "model": "v3.1-20260211",
+        "model_reason": "default high-fidelity \u2192 v3.1",
+        "steps": [
+          {
+            "name": "text-to-model",
+            "endpoint": "/v3/generation/text-to-model",
+            "task_type": "text_to_model",
+            "payload": {
+              "prompt": "Natural storybook realism, organic shapes, detailed matte PBR textures, muted earthy colors, isolated single game asset, no text, no pedestal. Tiny rustic open front garden shelter, slanted timber roof, weathered dark brown plank back wall, four wooden posts, open doorway and visible empty wooden floor, a little ochre clay pot on one side. No ground base. ",
+              "model": "v3.1-20260211",
+              "texture": true,
+              "pbr": true,
+              "texture_quality": "standard"
+            }
+          }
+        ],
+        "pending_uploads": [],
+        "deliverables": [],
+        "candidates": 1,
+        "warnings": [],
+        "errors": [],
+        "cost_notes": []
+      },
+      "result": {
+        "task_id": "3b3fd0bc-d89d-43ab-b08d-a43346d4c1cf",
+        "type": "text_to_model",
+        "status": "success",
+        "credits_consumed": 20,
+        "model_file": "asset-sources/shed/tripo-out/cloudgarden-shed-3b3fd0bc/model.glb",
+        "output_dir": "asset-sources/shed/tripo-out/cloudgarden-shed-3b3fd0bc",
+        "preview": "asset-sources/shed/tripo-out/cloudgarden-shed-3b3fd0bc/preview.png"
+      }
+    },
+    "rock": {
+      "prompt": "Natural storybook realism, organic shapes, detailed matte PBR textures, muted earthy colors, isolated single game asset, no text, no pedestal. A single irregular weathered dark gray basalt boulder, layered rough stone with subtle olive green moss in crevices, low wide asymmetrical silhouette. ",
+      "created_at": "2026-10-14T14:53:41.012159+00:00",
+      "dry_run": {
+        "dry_run": true,
+        "valid": true,
+        "input": "Natural storybook realism, organic shapes, detailed matte PBR textures, muted earthy colors, isolated single game asset, no text, no pedestal. A single irregular weathered dark gray basalt boulder, layered rough stone with subtle olive green moss in crevices, low wide asymmetrical silhouette. ",
+        "model": "v3.1-20260211",
+        "model_reason": "default high-fidelity \u2192 v3.1",
+        "steps": [
+          {
+            "name": "text-to-model",
+            "endpoint": "/v3/generation/text-to-model",
+            "task_type": "text_to_model",
+            "payload": {
+              "prompt": "Natural storybook realism, organic shapes, detailed matte PBR textures, muted earthy colors, isolated single game asset, no text, no pedestal. A single irregular weathered dark gray basalt boulder, layered rough stone with subtle olive green moss in crevices, low wide asymmetrical silhouette. ",
+              "model": "v3.1-20260211",
+              "texture": true,
+              "pbr": true,
+              "texture_quality": "standard"
+            }
+          }
+        ],
+        "pending_uploads": [],
+        "deliverables": [],
+        "candidates": 1,
+        "warnings": [],
+        "errors": [],
+        "cost_notes": []
+      },
+      "result": {
+        "task_id": "4f8da38a-6d22-45fe-a612-dfb058bce1f5",
+        "type": "text_to_model",
+        "status": "success",
+        "credits_consumed": 20,
+        "model_file": "asset-sources/rock/tripo-out/cloudgarden-rock-4f8da38a/model.glb",
+        "output_dir": "asset-sources/rock/tripo-out/cloudgarden-rock-4f8da38a",
+        "preview": "asset-sources/rock/tripo-out/cloudgarden-rock-4f8da38a/preview.png"
+      }
+    },
+    "fence": {
+      "prompt": "Natural storybook realism, organic shapes, detailed matte PBR textures, muted earthy colors, isolated single game asset, no text, no pedestal. Short rustic wooden garden fence section, three rough vertical aged timber posts connected by two horizontal weathered planks, simple natural brown wood, no ground base. ",
+      "created_at": "2026-10-14T14:57:33.210320+00:00",
+      "dry_run": {
+        "dry_run": true,
+        "valid": true,
+        "input": "Natural storybook realism, organic shapes, detailed matte PBR textures, muted earthy colors, isolated single game asset, no text, no pedestal. Short rustic wooden garden fence section, three rough vertical aged timber posts connected by two horizontal weathered planks, simple natural brown wood, no ground base. ",
+        "model": "v3.1-20260211",
+        "model_reason": "default high-fidelity \u2192 v3.1",
+        "steps": [
+          {
+            "name": "text-to-model",
+            "endpoint": "/v3/generation/text-to-model",
+            "task_type": "text_to_model",
+            "payload": {
+              "prompt": "Natural storybook realism, organic shapes, detailed matte PBR textures, muted earthy colors, isolated single game asset, no text, no pedestal. Short rustic wooden garden fence section, three rough vertical aged timber posts connected by two horizontal weathered planks, simple natural brown wood, no ground base. ",
+              "model": "v3.1-20260211",
+              "texture": true,
+              "pbr": true,
+              "texture_quality": "standard"
+            }
+          }
+        ],
+        "pending_uploads": [],
+        "deliverables": [],
+        "candidates": 1,
+        "warnings": [],
+        "errors": [],
+        "cost_notes": []
+      },
+      "result": {
+        "task_id": "f1418837-d08b-4a7f-8dff-9186fae5ceb3",
+        "type": "text_to_model",
+        "status": "success",
+        "credits_consumed": 20,
+        "model_file": "asset-sources/fence/tripo-out/cloudgarden-fence-f1418837/model.glb",
+        "output_dir": "asset-sources/fence/tripo-out/cloudgarden-fence-f1418837",
+        "preview": "asset-sources/fence/tripo-out/cloudgarden-fence-f1418837/preview.png"
+      }
+    },
+    "shrine": {
+      "prompt": "Natural storybook realism, organic shapes, detailed matte PBR textures, muted earthy colors, isolated single game asset, no text, no pedestal. Ancient small garden shrine carved from moss covered gray stone, squat plinth with shallow steps supporting a pointed standing stone with a circular inset glowing amber glass jewel, elegant simple fantasy relic, organic weathered stone, no writing. ",
+      "created_at": "2026-10-14T15:01:20.542130+00:00",
+      "dry_run": {
+        "dry_run": true,
+        "valid": true,
+        "input": "Natural storybook realism, organic shapes, detailed matte PBR textures, muted earthy colors, isolated single game asset, no text, no pedestal. Ancient small garden shrine carved from moss covered gray stone, squat plinth with shallow steps supporting a pointed standing stone with a circular inset glowing amber glass jewel, elegant simple fantasy relic, organic weathered stone, no writing. ",
+        "model": "v3.1-20260211",
+        "model_reason": "default high-fidelity \u2192 v3.1",
+        "steps": [
+          {
+            "name": "text-to-model",
+            "endpoint": "/v3/generation/text-to-model",
+            "task_type": "text_to_model",
+            "payload": {
+              "prompt": "Natural storybook realism, organic shapes, detailed matte PBR textures, muted earthy colors, isolated single game asset, no text, no pedestal. Ancient small garden shrine carved from moss covered gray stone, squat plinth with shallow steps supporting a pointed standing stone with a circular inset glowing amber glass jewel, elegant simple fantasy relic, organic weathered stone, no writing. ",
+              "model": "v3.1-20260211",
+              "texture": true,
+              "pbr": true,
+              "texture_quality": "standard"
+            }
+          }
+        ],
+        "pending_uploads": [],
+        "deliverables": [],
+        "candidates": 1,
+        "warnings": [],
+        "errors": [],
+        "cost_notes": []
+      },
+      "result": {
+        "task_id": "878f9868-7f60-422d-84f7-e6c2c7ee5400",
+        "type": "text_to_model",
+        "status": "success",
+        "credits_consumed": 20,
+        "model_file": "asset-sources/shrine/tripo-out/cloudgarden-shrine-878f9868/model.glb",
+        "output_dir": "asset-sources/shrine/tripo-out/cloudgarden-shrine-878f9868",
+        "preview": "asset-sources/shrine/tripo-out/cloudgarden-shrine-878f9868/preview.png"
+      }
+    },
+    "flowers-white": {
+      "prompt": "Natural storybook realism, organic shapes, detailed matte PBR textures, muted earthy colors, isolated single game asset, no text, no pedestal. Small clump of six wild white daisies with yellow centers, slender stems at different heights and sparse small green leaves, natural delicate meadow flowers, no pot, no ground base. ",
+      "result": {
+        "task_id": "194708d9-24fd-478d-a5f4-e7136bfbd221",
+        "type": "text_to_model",
+        "status": "success",
+        "credits_consumed": 20
+      }
+    },
+    "fern": {
+      "prompt": "Natural storybook realism, organic shapes, detailed matte PBR textures, muted earthy colors, isolated single game asset, no text, no pedestal. A single lush green woodland fern with seven arching fronds radiating outwards, delicate individual leaflets, natural light green new growth, no pot, no ground base. ",
+      "created_at": "2026-10-14T15:03:04.608098+00:00",
+      "dry_run": {
+        "dry_run": true,
+        "valid": true,
+        "input": "Natural storybook realism, organic shapes, detailed matte PBR textures, muted earthy colors, isolated single game asset, no text, no pedestal. A single lush green woodland fern with seven arching fronds radiating outwards, delicate individual leaflets, natural light green new growth, no pot, no ground base. ",
+        "model": "v3.1-20260211",
+        "model_reason": "default high-fidelity \u2192 v3.1",
+        "steps": [
+          {
+            "name": "text-to-model",
+            "endpoint": "/v3/generation/text-to-model",
+            "task_type": "text_to_model",
+            "payload": {
+              "prompt": "Natural storybook realism, organic shapes, detailed matte PBR textures, muted earthy colors, isolated single game asset, no text, no pedestal. A single lush green woodland fern with seven arching fronds radiating outwards, delicate individual leaflets, natural light green new growth, no pot, no ground base. ",
+              "model": "v3.1-20260211",
+              "texture": true,
+              "pbr": true,
+              "texture_quality": "standard"
+            }
+          }
+        ],
+        "pending_uploads": [],
+        "deliverables": [],
+        "candidates": 1,
+        "warnings": [],
+        "errors": [],
+        "cost_notes": []
+      },
+      "result": {
+        "task_id": "51e38f97-0720-4334-9dbf-8b0d82329b2a",
+        "type": "text_to_model",
+        "status": "success",
+        "credits_consumed": 20,
+        "model_file": "asset-sources/fern/tripo-out/cloudgarden-fern-51e38f97/model.glb",
+        "output_dir": "asset-sources/fern/tripo-out/cloudgarden-fern-51e38f97",
+        "preview": "asset-sources/fern/tripo-out/cloudgarden-fern-51e38f97/preview.png"
+      }
+    },
+    "flowers-purple": {
+      "prompt": "Natural storybook realism, organic shapes, detailed matte PBR textures, muted earthy colors, isolated single game asset, no text, no pedestal. Small clump of three purple meadow lupine flower stalks with many tiny lilac blossoms and green finger shaped leaves, delicate realistic wildflowers, no pot or ground. ",
+      "created_at": "2026-10-14T15:03:55.248535+00:00",
+      "dry_run": {
+        "dry_run": true,
+        "valid": true,
+        "input": "Natural storybook realism, organic shapes, detailed matte PBR textures, muted earthy colors, isolated single game asset, no text, no pedestal. Small clump of three purple meadow lupine flower stalks with many tiny lilac blossoms and green finger shaped leaves, delicate realistic wildflowers, no pot or ground. ",
+        "model": "v3.1-20260211",
+        "model_reason": "default high-fidelity \u2192 v3.1",
+        "steps": [
+          {
+            "name": "text-to-model",
+            "endpoint": "/v3/generation/text-to-model",
+            "task_type": "text_to_model",
+            "payload": {
+              "prompt": "Natural storybook realism, organic shapes, detailed matte PBR textures, muted earthy colors, isolated single game asset, no text, no pedestal. Small clump of three purple meadow lupine flower stalks with many tiny lilac blossoms and green finger shaped leaves, delicate realistic wildflowers, no pot or ground. ",
+              "model": "v3.1-20260211",
+              "texture": true,
+              "pbr": true,
+              "texture_quality": "standard"
+            }
+          }
+        ],
+        "pending_uploads": [],
+        "deliverables": [],
+        "candidates": 1,
+        "warnings": [],
+        "errors": [],
+        "cost_notes": []
+      },
+      "result": {
+        "task_id": "535514b5-5afe-4a0f-965b-f42a3118b8d1",
+        "type": "text_to_model",
+        "status": "success",
+        "credits_consumed": 20,
+        "model_file": "asset-sources/flowers-purple/tripo-out/cloudgarden-flowers-purple-535514b5/model.glb",
+        "output_dir": "asset-sources/flowers-purple/tripo-out/cloudgarden-flowers-purple-535514b5",
+        "preview": "asset-sources/flowers-purple/tripo-out/cloudgarden-flowers-purple-535514b5/preview.png"
+      }
+    },
+    "path": {
+      "prompt": "Natural storybook realism, organic shapes, detailed matte PBR textures, muted earthy colors, isolated single game asset, no text, no pedestal. Thin flat irregular rectangular patch of worn warm brown earth footpath with scattered tiny pebbles, rough natural dirt texture, feathered uneven edges, length three times width, no grass, no pedestal. ",
+      "created_at": "2026-10-14T15:05:12.779130+00:00",
+      "dry_run": {
+        "dry_run": true,
+        "valid": true,
+        "input": "Natural storybook realism, organic shapes, detailed matte PBR textures, muted earthy colors, isolated single game asset, no text, no pedestal. Thin flat irregular rectangular patch of worn warm brown earth footpath with scattered tiny pebbles, rough natural dirt texture, feathered uneven edges, length three times width, no grass, no pedestal. ",
+        "model": "v3.1-20260211",
+        "model_reason": "default high-fidelity \u2192 v3.1",
+        "steps": [
+          {
+            "name": "text-to-model",
+            "endpoint": "/v3/generation/text-to-model",
+            "task_type": "text_to_model",
+            "payload": {
+              "prompt": "Natural storybook realism, organic shapes, detailed matte PBR textures, muted earthy colors, isolated single game asset, no text, no pedestal. Thin flat irregular rectangular patch of worn warm brown earth footpath with scattered tiny pebbles, rough natural dirt texture, feathered uneven edges, length three times width, no grass, no pedestal. ",
+              "model": "v3.1-20260211",
+              "texture": true,
+              "pbr": true,
+              "texture_quality": "standard"
+            }
+          }
+        ],
+        "pending_uploads": [],
+        "deliverables": [],
+        "candidates": 1,
+        "warnings": [],
+        "errors": [],
+        "cost_notes": []
+      },
+      "result": {
+        "task_id": "c9b28c12-fb7b-4add-864b-0e3bddee94cc",
+        "type": "text_to_model",
+        "status": "success",
+        "credits_consumed": 20,
+        "model_file": "asset-sources/path/tripo-out/cloudgarden-path-c9b28c12/model.glb",
+        "output_dir": "asset-sources/path/tripo-out/cloudgarden-path-c9b28c12",
+        "preview": "asset-sources/path/tripo-out/cloudgarden-path-c9b28c12/preview.png"
+      }
+    },
+    "lantern": {
+      "prompt": "Natural storybook realism, organic shapes, detailed matte PBR textures, muted earthy colors, isolated single game asset, no text, no pedestal. A small ancient garden lantern carved from mossy gray stone, squat square base, four slender stone pillars around a single amber crystal, peaked weathered stone roof. Open sides reveal the amber crystal. Natural storybook realism, isolated single prop, no ground. ",
+      "created_at": "2026-10-16T10:20:31.945811+00:00",
+      "dry_run": {
+        "dry_run": true,
+        "valid": true,
+        "input": "Natural storybook realism, organic shapes, detailed matte PBR textures, muted earthy colors, isolated single game asset, no text, no pedestal. A small ancient garden lantern carved from mossy gray stone, squat square base, four slender stone pillars around a single amber crystal, peaked weathered stone roof. Open sides reveal the amber crystal. Natural storybook realism, isolated single prop, no ground. ",
+        "model": "v3.1-20260211",
+        "model_reason": "default high-fidelity \u2192 v3.1",
+        "steps": [
+          {
+            "name": "text-to-model",
+            "endpoint": "/v3/generation/text-to-model",
+            "task_type": "text_to_model",
+            "payload": {
+              "prompt": "Natural storybook realism, organic shapes, detailed matte PBR textures, muted earthy colors, isolated single game asset, no text, no pedestal. A small ancient garden lantern carved from mossy gray stone, squat square base, four slender stone pillars around a single amber crystal, peaked weathered stone roof. Open sides reveal the amber crystal. Natural storybook realism, isolated single prop, no ground. ",
+              "model": "v3.1-20260211",
+              "texture": true,
+              "pbr": true,
+              "texture_quality": "standard"
+            }
+          }
+        ],
+        "pending_uploads": [],
+        "deliverables": [],
+        "candidates": 1,
+        "warnings": [],
+        "errors": [],
+        "cost_notes": []
+      },
+      "result": {
+        "task_id": "e80c32b4-b97d-4623-b012-099b14003e65",
+        "type": "text_to_model",
+        "status": "success",
+        "credits_consumed": 20,
+        "model_file": "asset-sources/lantern/tripo-out/cloudgarden-lantern-e80c32b4/model.glb",
+        "output_dir": "asset-sources/lantern/tripo-out/cloudgarden-lantern-e80c32b4",
+        "preview": "asset-sources/lantern/tripo-out/cloudgarden-lantern-e80c32b4/preview.png"
+      }
+    }
+  },
+  "note": "All visible physical models originated in Tripo; Blender produces optimized derivatives.",
+  "total_credits": 400.0,
+  "final_balance": 600,
+  "actual_total_spent": 400,
+  "unspent_budget": 100,
+  "failed_animation_tasks": [
+    {
+      "task_id": "2e45bc15-0566-40fd-b01b-3f0363ddee62",
+      "net_credits": 0,
+      "status": "failed and refunded",
+      "reason": "Invalid input parameter with newer rig; compatibility Mixamo rig resolved retargeting."
+    },
+    {
+      "task_id": "c7fb486a-eef1-448f-8079-2f4da76509c7",
+      "net_credits": 0,
+      "status": "failed and refunded",
+      "reason": "Invalid input parameter with newer rig; compatibility Mixamo rig resolved retargeting."
+    },
+    {
+      "task_id": "91527322-0434-4175-9ec8-c09e83dd6827",
+      "net_credits": 0,
+      "status": "failed and refunded",
+      "reason": "Invalid input parameter with newer rig; compatibility Mixamo rig resolved retargeting."
+    },
+    {
+      "task_id": "41e55aa0-1dd7-49bd-92a4-7183ae903dd5",
+      "net_credits": 0,
+      "status": "failed and refunded",
+      "reason": "Invalid input parameter with newer rig; compatibility Mixamo rig resolved retargeting."
+    }
+  ],
+  "publicCopyNote": "Signed URLs, local machine paths, preview URLs and raw logs omitted. Source originals retained privately; optimized GLBs included."
+}

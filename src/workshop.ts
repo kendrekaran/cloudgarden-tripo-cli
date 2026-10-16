@@ -1,0 +1,14 @@
+import * as T from "three";
+import {GLTFLoader} from "three/addons/loaders/GLTFLoader.js";
+import {OrbitControls} from "three/addons/controls/OrbitControls.js";
+const canvas=document.querySelector<HTMLCanvasElement>("#model")!;
+const renderer=new T.WebGLRenderer({canvas,antialias:true,alpha:true});
+renderer.setPixelRatio(Math.min(devicePixelRatio,2));
+const scene=new T.Scene();const camera=new T.PerspectiveCamera(35,1,.01,100);
+const controls=new OrbitControls(camera,canvas);controls.enableDamping=true;controls.autoRotate=true;controls.enableZoom=false;controls.enablePan=false;
+scene.add(new T.HemisphereLight(0xfff5de,0x728e70,2.4));const sun=new T.DirectionalLight(0xffdfaa,3);sun.position.set(3,4,5);scene.add(sun);
+function resize(){renderer.setSize(canvas.clientWidth,480,false);camera.aspect=canvas.clientWidth/480;camera.updateProjectionMatrix();}resize();addEventListener("resize",resize);
+new GLTFLoader().load("assets/lantern.glb",g=>{const b=new T.Box3().setFromObject(g.scene),size=b.getSize(new T.Vector3()),center=b.getCenter(new T.Vector3());g.scene.position.sub(center);scene.add(g.scene);const h=Math.max(size.x,size.y,size.z);camera.position.set(h*1.6,h*.7,h*2);controls.update();document.querySelector("#model-status")!.textContent="Loaded: assets/lantern.glb · drag to rotate";},undefined,()=>document.querySelector("#model-status")!.textContent="Model failed to load. Reload to retry.");
+document.querySelector("#rotate")!.addEventListener("click",e=>{controls.autoRotate=!controls.autoRotate;(e.target as HTMLElement).textContent=controls.autoRotate?"Pause rotation":"Resume rotation";});
+renderer.setAnimationLoop(()=>{controls.update();renderer.render(scene,camera)});
+fetch("workflow/evidence.json").then(r=>r.json()).then(d=>{document.querySelector("#command")!.textContent=d.command;document.querySelector("#dry")!.textContent=JSON.stringify(d.dry_run,null,2);document.querySelector("#result")!.textContent=JSON.stringify(d.result,null,2)}).catch(()=>document.querySelector("#command")!.textContent="Evidence could not load. Reload to retry.");
